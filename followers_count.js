@@ -15,6 +15,13 @@ function checkCountValue() {
     }
 }
 
+// Function to reset the follower count
+function resetCount() {
+    count = 0; // Reset the count
+    document.getElementById('countDisplay').textContent = count; // Update the display
+    alert("Followers count has been reset."); // Alert message for reset
+}
+
   function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
